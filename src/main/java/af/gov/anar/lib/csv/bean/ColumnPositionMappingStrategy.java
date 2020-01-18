@@ -1,6 +1,8 @@
 package af.gov.anar.lib.csv.bean;
 
 
+import af.gov.anar.lib.csv.CsvReader;
+
 import java.io.IOException;
 
 public class ColumnPositionMappingStrategy<T> extends HeaderColumnNameMappingStrategy<T> {
