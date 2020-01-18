@@ -1,5 +1,7 @@
 package af.gov.anar.lib.csv.bean;
 
+import af.gov.anar.lib.csv.CsvWriter;
+
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;
 import java.io.Writer;
