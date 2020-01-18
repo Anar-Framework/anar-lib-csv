@@ -22,8 +22,8 @@ public class ResultSetHelperService implements ResultSetHelper {
   public static final int LONGNVARCHAR = -16;
   public static final int NCLOB = 2011;
 
-  static final String DEFAULT_DATE_FORMAT = "dd-MMM-yyyy";
-  static final String DEFAULT_TIMESTAMP_FORMAT = "dd-MMM-yyyy HH:mm:ss";
+  public static final String DEFAULT_DATE_FORMAT = "dd-MMM-yyyy";
+  public static final String DEFAULT_TIMESTAMP_FORMAT = "dd-MMM-yyyy HH:mm:ss";
 
   public List<String> getColumnNames(ResultSet rs) throws SQLException {
     List<String> names = new ArrayList<String>();

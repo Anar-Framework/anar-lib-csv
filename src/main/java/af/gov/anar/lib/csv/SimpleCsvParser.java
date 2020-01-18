@@ -29,7 +29,7 @@ import java.util.List;
  * NotThreadSafe - only use one CsvParser per thread
  */
 public class SimpleCsvParser implements CsvParser {
-  static final int INITIAL_READ_SIZE = 128;
+  public static final int INITIAL_READ_SIZE = 128;
 
   final char separator;
   final char quotechar;
@@ -309,7 +309,7 @@ public class SimpleCsvParser implements CsvParser {
     state.escapeFound(false); 
   }
   
-  String trim(StringBuilder sb) {
+  public String trim(StringBuilder sb) {
     int left = 0;
     int right = sb.length() - 1;
     

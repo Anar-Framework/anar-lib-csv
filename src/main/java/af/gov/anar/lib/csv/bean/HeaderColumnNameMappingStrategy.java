@@ -15,9 +15,9 @@ import java.util.Map;
 
 
 public class HeaderColumnNameMappingStrategy<T> implements MappingStrategy<T> {
-  protected List<String> header;
-  protected Map<String, PropertyDescriptor> descriptorMap = null;
-  protected Class<T> type;
+  public List<String> header;
+  public Map<String, PropertyDescriptor> descriptorMap = null;
+  public Class<T> type;
 
   public HeaderColumnNameMappingStrategy() {}
 
@@ -39,20 +39,20 @@ public class HeaderColumnNameMappingStrategy<T> implements MappingStrategy<T> {
     return (null != columnName && columnName.trim().length() > 0) ? findDescriptor(columnName) : null;
   }
 
-  protected String getColumnName(int col) {
+  public String getColumnName(int col) {
     return (null != header && col < header.size()) ? header.get(col) : null;
   }
 
-  protected PropertyDescriptor findDescriptor(String name) throws IntrospectionException {
+  public PropertyDescriptor findDescriptor(String name) throws IntrospectionException {
     if (null == descriptorMap) descriptorMap = loadDescriptorMap(getType()); //lazy load descriptors
     return descriptorMap.get(name.toUpperCase().trim());
   }
 
-  protected boolean matches(String name, PropertyDescriptor desc) {
+  public boolean matches(String name, PropertyDescriptor desc) {
     return desc.getName().equals(name.trim());
   }
 
-  protected Map<String, PropertyDescriptor> loadDescriptorMap(Class<T> cls) throws IntrospectionException {
+  public Map<String, PropertyDescriptor> loadDescriptorMap(Class<T> cls) throws IntrospectionException {
     Map<String, PropertyDescriptor> map = new HashMap<String, PropertyDescriptor>();
 
     PropertyDescriptor[] descriptors;
