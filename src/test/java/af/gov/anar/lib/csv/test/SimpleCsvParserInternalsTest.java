@@ -1,6 +1,6 @@
 package af.gov.anar.lib.csv.test;
 
-import af.gov.anar.lib.csv.SimpleCsvParser;
+import af.gov.anar.lib.csv.parser.SimpleCsvParser;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package af.gov.anar.lib.csv;
+package af.gov.anar.lib.csv.writer;
 
 import af.gov.anar.lib.csv.resultset.ResultSetHelper;
 import af.gov.anar.lib.csv.resultset.ResultSetHelperService;

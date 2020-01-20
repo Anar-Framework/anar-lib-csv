@@ -1,8 +1,8 @@
 package af.gov.anar.lib.csv.test;
 
-import af.gov.anar.lib.csv.CsvParserBuilder;
-import af.gov.anar.lib.csv.ParserUtil;
-import af.gov.anar.lib.csv.SimpleCsvParser;
+import af.gov.anar.lib.csv.parser.CsvParserBuilder;
+import af.gov.anar.lib.csv.util.ParserUtil;
+import af.gov.anar.lib.csv.parser.SimpleCsvParser;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

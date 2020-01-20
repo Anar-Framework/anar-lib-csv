@@ -1,4 +1,6 @@
-package af.gov.anar.lib.csv;
+package af.gov.anar.lib.csv.util;
+
+import af.gov.anar.lib.csv.reader.CsvReader;
 
 import java.io.IOException;
 import java.util.Iterator;

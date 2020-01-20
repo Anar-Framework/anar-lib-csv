@@ -1,7 +1,7 @@
 package af.gov.anar.lib.csv.test;
 
-import af.gov.anar.lib.csv.CsvIterator;
-import af.gov.anar.lib.csv.CsvReader;
+import af.gov.anar.lib.csv.util.CsvIterator;
+import af.gov.anar.lib.csv.reader.CsvReader;
 import org.junit.Before;
 import org.junit.Test;
 

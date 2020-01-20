@@ -1,15 +1,15 @@
 package af.gov.anar.lib.csv.test;
 
-import af.gov.anar.lib.csv.CsvParser;
-import af.gov.anar.lib.csv.CsvParserBuilder;
-import af.gov.anar.lib.csv.ParserUtil;
-import af.gov.anar.lib.csv.SimpleCsvParser;
+import af.gov.anar.lib.csv.parser.CsvParser;
+import af.gov.anar.lib.csv.parser.CsvParserBuilder;
+import af.gov.anar.lib.csv.util.ParserUtil;
+import af.gov.anar.lib.csv.parser.SimpleCsvParser;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
 
-import static af.gov.anar.lib.csv.ParserUtil.*;
+import static af.gov.anar.lib.csv.util.ParserUtil.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

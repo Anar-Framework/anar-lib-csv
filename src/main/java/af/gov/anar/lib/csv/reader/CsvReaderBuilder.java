@@ -1,4 +1,7 @@
-package af.gov.anar.lib.csv;
+package af.gov.anar.lib.csv.reader;
+
+import af.gov.anar.lib.csv.parser.CsvParser;
+import af.gov.anar.lib.csv.parser.SimpleCsvParser;
 
 import java.io.Reader;
 

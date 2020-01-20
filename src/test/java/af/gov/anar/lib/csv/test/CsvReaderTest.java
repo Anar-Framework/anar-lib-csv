@@ -1,10 +1,16 @@
 package af.gov.anar.lib.csv.test;
 
-import af.gov.anar.lib.csv.*;
+import af.gov.anar.lib.csv.parser.CsvParser;
+import af.gov.anar.lib.csv.parser.CsvParserBuilder;
+import af.gov.anar.lib.csv.parser.MultiLineCsvParser;
+import af.gov.anar.lib.csv.reader.CsvReader;
+import af.gov.anar.lib.csv.reader.CsvReaderBuilder;
+import af.gov.anar.lib.csv.util.ParserUtil;
+import af.gov.anar.lib.csv.writer.CsvWriter;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Matchers;
-import af.gov.anar.lib.csv.SimpleCsvParser;
+import af.gov.anar.lib.csv.parser.SimpleCsvParser;
 
 import java.io.*;
 import java.nio.CharBuffer;

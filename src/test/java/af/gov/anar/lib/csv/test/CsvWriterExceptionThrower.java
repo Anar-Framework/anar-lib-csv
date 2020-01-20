@@ -1,6 +1,6 @@
 package af.gov.anar.lib.csv.test;
 
-import af.gov.anar.lib.csv.CsvWriter;
+import af.gov.anar.lib.csv.writer.CsvWriter;
 
 import java.io.IOException;
 import java.io.Writer;

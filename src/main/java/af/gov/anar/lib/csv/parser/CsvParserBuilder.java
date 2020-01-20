@@ -1,4 +1,6 @@
-package af.gov.anar.lib.csv;
+package af.gov.anar.lib.csv.parser;
+
+import af.gov.anar.lib.csv.util.ParserUtil;
 
 public class CsvParserBuilder {
   char separator = ParserUtil.DEFAULT_SEPARATOR;

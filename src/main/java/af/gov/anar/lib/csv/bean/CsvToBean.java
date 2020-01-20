@@ -1,6 +1,6 @@
 package af.gov.anar.lib.csv.bean;
 
-import af.gov.anar.lib.csv.CsvReader;
+import af.gov.anar.lib.csv.reader.CsvReader;
 
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;

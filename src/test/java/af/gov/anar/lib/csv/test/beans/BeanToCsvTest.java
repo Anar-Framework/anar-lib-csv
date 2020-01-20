@@ -1,7 +1,7 @@
 package af.gov.anar.lib.csv.test.beans;
 
-import af.gov.anar.lib.csv.CsvReader;
-import af.gov.anar.lib.csv.CsvWriter;
+import af.gov.anar.lib.csv.reader.CsvReader;
+import af.gov.anar.lib.csv.writer.CsvWriter;
 import af.gov.anar.lib.csv.bean.BeanToCsv;
 import af.gov.anar.lib.csv.bean.ColumnPositionMappingStrategy;
 import af.gov.anar.lib.csv.bean.MappingStrategy;

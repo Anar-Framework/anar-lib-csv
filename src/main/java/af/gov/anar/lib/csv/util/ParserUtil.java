@@ -1,4 +1,4 @@
-package af.gov.anar.lib.csv;
+package af.gov.anar.lib.csv.util;
 
 public class ParserUtil {
 

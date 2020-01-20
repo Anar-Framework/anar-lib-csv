@@ -15,8 +15,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-import af.gov.anar.lib.csv.CsvWriter;
-import af.gov.anar.lib.csv.CsvWriterBuilder;
+import af.gov.anar.lib.csv.writer.CsvWriter;
+import af.gov.anar.lib.csv.writer.CsvWriterBuilder;
 import af.gov.anar.lib.csv.test.resultsets.MockResultSetBuilder;
 import af.gov.anar.lib.csv.resultset.ResultSetHelperService;
 import org.junit.Test;

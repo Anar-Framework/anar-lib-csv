@@ -1,6 +1,6 @@
 package af.gov.anar.lib.csv.test.integrationtests;
 
-import af.gov.anar.lib.csv.CsvReader;
+import af.gov.anar.lib.csv.reader.CsvReader;
 import org.junit.Test;
 
 import java.io.FileReader;
